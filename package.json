@@ -1,5 +1,5 @@
 {
-  "name": "graphql-lambda-example",
+  "name": "graphql-lambda-sdl-example",
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "graphql-lambda": "^1.0.0",
-    "nexus": "^1.0.0",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {

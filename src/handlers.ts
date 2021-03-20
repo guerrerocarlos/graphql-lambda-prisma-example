@@ -11,14 +11,14 @@ import {
   eventStore,
 } from "./lambda";
 
-import { schema } from "./graphql/schema";
+import { typeDefs, resolvers } from "./graphql/schema";
 
 const server = new Server({
   connectionManager,
   eventProcessor: new EventProcessor(),
-  // typeDefs,
-  // resolvers,
-  schema,
+  typeDefs,
+  resolvers,
+  // schema,
   subscriptionManager,
   onError: (err) => {
     console.log(err);
