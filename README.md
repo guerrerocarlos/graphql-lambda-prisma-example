@@ -18,5 +18,7 @@ Deploy as usual with Serverles.com framework:
 
 Creating new users and receiving them in real time through `subscription` query:
 
-![Playground using Subscriptions](https://user-images.githubusercontent.com/82532/113527161-8dc3bf80-95b4-11eb-8251-512b69d55336.jpg)
+![Screenshot 2021-04-05 at 2 39 52 AM](https://user-images.githubusercontent.com/82532/113528358-3de6f780-95b8-11eb-9d20-3f7000bb2e3d.jpg)
+
+![Screenshot 2021-04-05 at 2 39 55 AM](https://user-images.githubusercontent.com/82532/113528362-42131500-95b8-11eb-8ca0-b390db97c1bd.jpg)
 
