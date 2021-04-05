@@ -41,6 +41,7 @@ export const typeDefs = /* GraphQL */ `
   }
   type Query {
     serverTime: Float!
+    usersCount: Int!
   }
   type Subscription {
     messageFeed(type: MessageType): Message!
@@ -69,6 +70,9 @@ export const resolvers = {
   },
   Query: {
     serverTime: async () => {
+      return new Date();
+    },
+    usersCount: async () => {
       return (await prisma.user.findMany({})).length;
     },
   },
