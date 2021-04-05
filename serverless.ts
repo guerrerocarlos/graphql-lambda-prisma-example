@@ -1,7 +1,7 @@
 import type { AWS } from "@serverless/typescript";
 
 const serverlessConfiguration: AWS = {
-  service: "graphql-lambda-example",
+  service: "graphql-lambda-prisma-example",
   // frameworkVersion: '2',
   // Add the serverless-webpack plugin
   plugins: ["serverless-webpack"],

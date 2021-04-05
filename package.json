@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@prisma/client": "^2.20.1",
     "graphql-lambda": "^1.0.0",
     "source-map-support": "^0.5.19"
   },
@@ -15,6 +16,7 @@
     "@types/aws-lambda": "^8.10.64",
     "@types/node": "^14.14.6",
     "fork-ts-checker-webpack-plugin": "^6.0.0",
+    "prisma": "^2.20.1",
     "serverless-webpack": "^5.2.0",
     "ts-loader": "^8.0.10",
     "ts-node": "^9.0.0",

@@ -1,0 +1,22 @@
+generator prisma_client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  birthDate DateTime
+  Post      Post?    @relation(fields: [postId], references: [id])
+  postId    String?
+}
+
+model Post {
+  id     String @id @default(cuid())
+  author User[]
+}
