@@ -6,7 +6,7 @@ This is a [graphql-lambda](https://github.com/guerrerocarlos/graphql-lambda) mod
 
  * Prisma schemas definitions and client 
  * GraphQL SDL schemas definitions
- * Subscriptions with Prisma 
+ * `Subscription` queries implementation with Prisma module 
 
 # How to
 
