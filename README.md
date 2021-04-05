@@ -10,7 +10,7 @@ This is a [graphql-lambda](https://github.com/guerrerocarlos/graphql-lambda) mod
 
 # How to
 
-Deploy as usual with Serverles.com framework:
+Deploy as usual with [serverless](https://serverles.com/) framework:
 
 `serverless deploy`
 
